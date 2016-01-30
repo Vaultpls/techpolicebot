@@ -20,6 +20,11 @@ switch(true) {
 		$repR = "Jimmy";
 		break;
 		
+	case preg_match("/(huawei)/i", $t, $out):
+		$repL = $out[1];
+		$repR = "Huewhy";
+		break;
+
 	default:
 		die("true");
 		break;
