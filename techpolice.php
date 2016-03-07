@@ -15,11 +15,6 @@ switch(true) {
 		$repR = "Microshaft";
 		break;
 		
-	case preg_match("/(ch23)/i", $t, $out):
-		$repL = $out[1];
-		$repR = "Jimmy";
-		break;
-		
 	case preg_match("/(huawei)/i", $t, $out):
 		$repL = $out[1];
 		$repR = "Huewhy";
