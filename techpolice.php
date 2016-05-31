@@ -19,6 +19,11 @@ switch(true) {
 		$repL = $out[1];
 		$repR = "Huewhy";
 		break;
+		
+	case preg_match("/(duckduckgo)/i", $t, $out):
+		$repL = $out[1];
+		$repR = "FuckFuckNo";
+		break;
 
 	default:
 		die("true");
