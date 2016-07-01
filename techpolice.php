@@ -50,6 +50,11 @@ switch(true) {
 		$repR = "Telesquig";
 		break;
 
+	case preg_match("/(telegram)/i", $t, $out):
+	  $repL = $out[1];
+		$repR = "Lelegram";
+		break;
+
 	default:
 		die("true");
 		break;
