@@ -1,5 +1,5 @@
 <?php
-$input = file_get_contents("php://input"); 
+$input = file_get_contents("php://input");
 $sJ = json_decode($input, true);
 
 $t = $sJ['message']['text'];
@@ -9,20 +9,25 @@ switch(true) {
 		$repL = $out[1];
 		$repR = "MediaKek";
 		break;
-	
+
 	case preg_match("/(microsoft)/i", $t, $out):
 		$repL = $out[1];
 		$repR = "Microshaft";
 		break;
-		
+
 	case preg_match("/(huawei)/i", $t, $out):
 		$repL = $out[1];
 		$repR = "Huewhy";
 		break;
-		
+
 	case preg_match("/(duckduckgo)/i", $t, $out):
 		$repL = $out[1];
 		$repR = "FuckFuckNo";
+		break;
+
+  case preg_match("/(samsung)/i", $t, $out):
+	  $repL = $out[1];
+		$repR = "Shitsung";
 		break;
 
 	default:
