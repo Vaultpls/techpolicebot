@@ -30,6 +30,11 @@ switch(true) {
 		$repR = "Samshit";
 		break;
 
+	case preg_match("/(touchwiz)/i", $t, $out):
+	  $repL = $out[1];
+		$repR = "TouchJizz";
+		break;
+
 	case preg_match("/(liberbot)/i", $t, $out):
 	  $repL = $out[1];
 		$repR = "Liberflop";
