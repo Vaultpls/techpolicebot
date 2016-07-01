@@ -27,7 +27,7 @@ switch(true) {
 
   case preg_match("/(samsung)/i", $t, $out):
 	  $repL = $out[1];
-		$repR = "Shitsung";
+		$repR = "Samshit";
 		break;
 
 	default:
