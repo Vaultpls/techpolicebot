@@ -55,6 +55,11 @@ switch(true) {
 		$repR = "Lelegram";
 		break;
 
+	case preg_match("/(suck)/i", $t, $out):
+		$repL = $out[1];
+		$repR = "succ";
+		break;
+
 	default:
 		die("true");
 		break;
