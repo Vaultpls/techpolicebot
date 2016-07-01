@@ -26,32 +26,32 @@ switch(true) {
 		break;
 
 	case preg_match("/(samsung)/i", $t, $out):
-	  $repL = $out[1];
+		$repL = $out[1];
 		$repR = "Samshit";
 		break;
 
 	case preg_match("/(touchwiz)/i", $t, $out):
-	  $repL = $out[1];
+		$repL = $out[1];
 		$repR = "TouchJizz";
 		break;
 
 	case preg_match("/(liberbot)/i", $t, $out):
-	  $repL = $out[1];
+		$repL = $out[1];
 		$repR = "Liberflop";
 		break;
 
 	case preg_match("/(otouto)/i", $t, $out):
-	  $repL = $out[1];
+		$repL = $out[1];
 		$repR = "slowtouto";
 		break;
 
 	case preg_match("/(teleseed)/i", $t, $out):
-	  $repL = $out[1];
+		$repL = $out[1];
 		$repR = "Telesquig";
 		break;
 
 	case preg_match("/(telegram)/i", $t, $out):
-	  $repL = $out[1];
+		$repL = $out[1];
 		$repR = "Lelegram";
 		break;
 
